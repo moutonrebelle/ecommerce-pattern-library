@@ -2,7 +2,7 @@
   background-color: var(--color-secondary-dark);
   border-color: var(--color-secondary-dark);
   color: white;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .btn:hover {
@@ -18,11 +18,20 @@
 }
 
 .btn-ghost:hover {
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
 }
 
 .btn-light {
   background-color: var(--color-primary);
+  border-color: var(--color-primary);
   color: white;
   border-radius: 5px;
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
 }
