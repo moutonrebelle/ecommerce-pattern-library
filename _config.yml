@@ -6,7 +6,7 @@ patternbot:
   description: Small online candy shop offering a large variety of homemade candies.
   font_url: "https://fonts.googleapis.com/css?family=Dosis|Lato"
   colors:
-    background: #ffffff;
+    background: "#ffffff"
       color: "--color-primary-dark"
       accent: "--color-primary-light"
     patterns:
