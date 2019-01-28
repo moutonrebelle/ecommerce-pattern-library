@@ -22,7 +22,7 @@
 }
 
 .btn-light {
-  background-color: var(--color-primary)
+  background-color: var(--color-primary);
   color: white;
   border-radius: 5px;
 }
