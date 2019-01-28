@@ -7,7 +7,7 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Dosis|Lato"
   colors:
     background: #ffffff;
-      color: "--color-primary-dark";
+      color: "--color-primary-dark"
       accent: "--color-primary-light"
     patterns:
       brand.logos: "--color-secondary-light"
