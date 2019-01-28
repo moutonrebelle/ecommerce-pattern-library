@@ -1,17 +1,85 @@
 :root {
-  --color-primary: #f788ad;
-  --color-primary-light: #ffd3d6;
-  --color-secondary: #4cc2c1;
+  --color-primary: #4cc2c1;
+  --color-primary-light: #a5e0e0;
+  --color-primary-dark: #367e7d;
+  --color-secondary: #f788ad;
+  --color-secondary-light: #ffd3d6;
   --color-yellow: #f9cd46;
   --color-purple: #cda4eb;
-  --color-mauve: #f4d8ff;
+  --color-purple-light: #f4d8ff;
   --color-neutral-dark-grey: #505050;
   --color-neutral-light-grey: #e2e2e2;
 
-  --font-primary: "Dosis", sans-serif;
-  --font-secondary: "Lato", sans-serif;
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Dosis", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-neutral-dark-grey);
+}
+
+/* @utility Apply the secondary typeface */
+.font-secondary {
+  font-family var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-dark-grey);
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-secondary-light);
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl, ol, ul {
+  color: var(--color-primary-dark);
+}
+
+/* @utility Apply a light background colour to an element */
+.section-light {
+  background-color: var(--color-purple-light);
+}
+
+/* @utility Apply a dark background colour to an element */
+.section-dark {
+  background-color: var(--color-secondary);
+}
+
+/* @utility Apply a primary colour background colour to an element */
+.section-primary-color {
+  background-color: var(--color-primary);
+}
+
+blockquote {
+  color: var(--color-secondary)
+}
+
+q {
+  color: var(--color-secondary);
+}
+
+cite {
+  color: var(--color-secondary);
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
 }

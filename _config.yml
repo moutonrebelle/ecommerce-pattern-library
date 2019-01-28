@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
+  title: "Candy Shop"
+  description: Small online candy shop offering a large variety of homemade candies.
+  font_url: "https://fonts.googleapis.com/css?family=Dosis|Lato"
+  colors:
+    background: #ffffff;
+      color: "--color-primary-dark";
+      accent: "--color-primary-light"
+    patterns:
+      brand.logos: "--color-secondary-light"
+    rationales:
+      colors.primary: |
+        The primary colours represent and match the logo which is supposed to represent a whale gummy shooting sprinkles.
+      colors.secondary: |
+        The secondary colours are pink because they bring some joy and contrast to the whole website.
+      typefaces.primary: |
+        Lato was chosen for its versatility. It is a beautiful font that is easy to read and that flows very well.
+      typefaces.secondary: |
+        Dosis was selected because it is a lovely and fun typeface that perfectly matches the spirit of candies.
