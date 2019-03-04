@@ -1,7 +1,7 @@
 :root {
   --color-primary: #4cc2c1;
-  --color-primary-light: #a5e0e0;
   --color-primary-dark: #367e7d;
+  --color-primary-light: #a5e0e0;
   --color-secondary: #f788ad;
   --color-secondary-dark: #FF6598;
   --color-secondary-light: #ffd3d6;
@@ -28,6 +28,10 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
   color: var(--color-dark-grey);
+}
+
+h3 {
+  color: var(--color-primary);
 }
 
 a {
