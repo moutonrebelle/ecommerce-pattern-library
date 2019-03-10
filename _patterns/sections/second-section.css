@@ -1,0 +1,10 @@
+.carousel-items > div {
+  display: none;
+}
+
+#dinosaurs-control:checked ~ .carousel-inner #dinosaurs,
+#unicorn-control:checked ~ .carousel-inner #unicorn,
+#shark-control:checked ~ .carousel-inner #shark,
+#fruits-control:checked ~ .carousel-inner #fruits, {
+  display: block;
+}
