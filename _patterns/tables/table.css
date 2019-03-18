@@ -1,0 +1,24 @@
+.cart img {
+  vertical-align: middle;
+  max-width: 100px;
+}
+
+.cart p {
+  color: var(--color-primary);
+}
+
+.cart td, th {
+  border: 0;
+  padding: 10px;
+  text-align: left;
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.cart table {
+  border-collapse: collapse;
+}
+
+.cart p a {
+  color: var(--color-secondary-dark);
+}

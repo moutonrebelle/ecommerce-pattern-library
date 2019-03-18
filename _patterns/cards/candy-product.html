@@ -1,5 +1,6 @@
 <div class="card">
   <img class="img-flex" src="/images/candies/candy-01.jpg" alt="">
-  <h2>Sour Dinosaurs</h2>
-  <h3>$6.00</h3>
+  <h2>{{include.data.name}}</h2>
+  <h3>{{include.data.price}}</h3>
+  { pattern buttons/primary text="Buy now" url=include.data.url %}
 </div>

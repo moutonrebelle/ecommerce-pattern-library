@@ -1,4 +1,4 @@
-<table id="cart">
+<table class="cart" id="cart">
   <thead>
     <tr>
       <th>Item</th>
@@ -7,12 +7,16 @@
     </tr>
   </thead>
   <tbody>
-    <td>
-      <img class="img-flex thumb" src="/images/candies/candy-01.jpg" alt="">
-      <h2>Sour Dinosaurs</h2>
-      <h3>$6.00</h3>
+    <tr>
+    <td class="cart-item">
+      <img class="img-flex thumb cart-image island-1-4" src="/images/candies/candy-01.jpg" alt="">
+      <p>Sour Dinosaurs</p>
     </td>
-    <td>
+    <td class="cart-quantity">
       {% pattern buttons/number-button %}
     </td>
+    <td class="cart-price">
+    <h3>$6.00</h3>
+    </td>
+    </tr>
   </tbody>

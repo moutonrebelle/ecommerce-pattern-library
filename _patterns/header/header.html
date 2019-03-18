@@ -1,12 +1,13 @@
-<header class="masthead push-1-2" role="banner">
-  <a href="/" class="logo block island-1-2 peta color-primary font-secondary">
-    <i class="icon i-48">
-      <img src="/images/logo.svg" alt="">
-    </i>
-    <span class="icon-label">Candy Shop</span>
-  </a>
-  <nav class="nav pad-t-1-2 pad-b-1-2 giga" role="navigation" id="nav">
-    <li class="gutter-1-2"><a href="#">Home</a></li>
-    <li class="gutter-1-2"><a href="/products/">Shop</a></li>
-    <li class="gutter-1-2"><a href="#">About Us</a></li>
-    <li class="gutter-1-2"><a href="#">Shopping Bag</a></li>
+<header class="masthead text-center" tabindex="0">
+        <div class="push-1-2 gutter-2 pad-t-1-2">
+          <img class="logo valign-middle island-1-4" src="/images/logo.svg" alt="logo">
+        </div>
+        <nav class="push-1-2 bold" role="navigation" id="nav" tabindex="0">
+          <ul class="nav list-group-inline push-none giga">
+            <li class="gutter-1-2">{% if page.highlight_nav == 'home' %}current{% endig %}<a class="current block pad-t-1-8 pad-b-1-8" href="home.html">Home</a></li>
+            <li class="gutter-1-2">{% if page.highlight_nav == 'shop' %}current{% endig %}<a class="block pad-t-1-8 pad-b-1-8" href="products.html">Shop</a></li>
+            <li class="gutter-1-2">{% if page.highlight_nav == 'about' %}current{% endig %}<a class="block pad-t-1-8 pad-b-1-8" href="about.html">About Us</a></li>
+            <li class="gutter-1-2">{% if page.highlight_nav == 'bag' %}current{% endig %}<a href="shopping-bag.html">Shopping Bag<i class="icon i-18 gutter"><svg><use xlink:href="/images/icons.svg#shopping-card"></use></svg></i></a></li>
+          </ul>
+        </nav>
+      </header>

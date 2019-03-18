@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The header will be used on all the pages of the website to allow the user to navigate from a page to another.
+
+patterns:
+  basic:
+    title: "header"
+    description: |
+      Default navigation.

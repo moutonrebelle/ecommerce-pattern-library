@@ -19,3 +19,13 @@ patternbot:
       Lato was chosen for its versatility. It is a beautiful font that is easy to read and that flows very well.
     typefaces.secondary: |
       Dosis was selected because it is a lovely and fun typeface that perfectly matches the spirit of candies.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  scope:
+    path: _products
+  values:
+    layout: product
