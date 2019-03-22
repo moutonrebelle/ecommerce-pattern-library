@@ -3,7 +3,7 @@ description: |
   The navigation is used to classify the candies in categories.
 
 patterns:
-  basic:
+  secondary-nav:
     title: "secondary-nav"
     description: |
       This navigation will be used to help the user find the candies that best suit his tastes.

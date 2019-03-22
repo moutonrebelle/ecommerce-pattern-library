@@ -1,13 +1,7 @@
 ---
-layout: default
-highlight_nav: products
+layout: product
+highlight_nav: shop
 ---
-
-{% pattern banner/top-of-page heading="Discover new flavours" text="We offer a large variety of candies" %}
-
-{% for product in site.products %}
-{% pattern cards/product-card data=product %}
-{% endfor %}
 
 <div class="grid gutter-1-4">
   {% for candy in site.candies %}

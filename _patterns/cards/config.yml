@@ -4,8 +4,8 @@ patterns:
     The candy-product is used on the product listing page to display each available product.
 
 fields:
-  name: data
-  type: object
-  data:
-    source: "site.products[0]"
-    type: Product
+  - name: data
+    type: object
+    data:
+      source: "site.products[0]"
+      type: Product

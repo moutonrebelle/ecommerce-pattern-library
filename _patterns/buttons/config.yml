@@ -5,12 +5,12 @@ description: |
 patterns:
   basic:
     fields:
-      name: text
-      type: string
-      example: "shop today"
-      name: url
-      type: url
-      example: "/products/"
+      - name: text
+        type: string
+        example: "shop today"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used in front of light backgrounds.
