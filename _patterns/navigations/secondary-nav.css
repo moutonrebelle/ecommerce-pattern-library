@@ -24,8 +24,6 @@
   outline: none;
   color: white;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -37,6 +35,7 @@
   display: none;
   position: absolute;
   z-index: 1;
+  background-color: white;
 }
 
 /* Links inside the dropdown */
