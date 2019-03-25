@@ -25,7 +25,7 @@ collections:
     output: true
 
 defaults:
-  scope:
-    path: _products
-  values:
-    layout: product
+  - scope:
+      path: _products
+    values:
+      layout: product
