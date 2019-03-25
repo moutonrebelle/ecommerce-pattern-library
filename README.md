@@ -1,3 +1,15 @@
+---
+#title
+
+title: Candy Shop
+version: 0.0.0
+
+#description & motivation
+
+description: This website was made for a fictional candy shop e-commerce. The goal was to have a fun and colorful design. This was accomplished by using different colors such as pink, purple and teal and with a logo representing a whale splashing sprinkles.
+
+The vision with this website was to create an e-commerce that would sell home-made vegan candies that are made with love and natural quality ingredients. Candies should be offered in a large variety of flavors and have multiple unusual ones. As a candy lover, I thought this was a great opportunity.
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -17,3 +29,5 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
+
+---
