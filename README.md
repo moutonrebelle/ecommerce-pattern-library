@@ -4,10 +4,9 @@ title: Candy Shop
 **version: 1.0.0**
 
 ##contributors
-- Laura Meguerditchian
-Github Username: @moutonrebelle
-Email: megu0003@algonquinlive.com
 
+[@moutonrebelle](https://github.com/moutonrebelle)
+[@cieraclaire](https://github.com/cierraclaire)
 
 ##description & motivation
 
