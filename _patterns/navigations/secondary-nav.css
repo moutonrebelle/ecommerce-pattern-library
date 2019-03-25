@@ -1,10 +1,9 @@
-/* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: var(--color-purple);
+  padding: 0px 80px;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   color: white;
@@ -12,13 +11,11 @@
   text-decoration: none;
 }
 
-/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
   border: none;
   outline: none;
@@ -38,21 +35,18 @@
   background-color: white;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 62px;
+  padding: 30px 62px;
   text-decoration: none;
   display: block;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }

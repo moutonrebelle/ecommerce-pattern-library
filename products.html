@@ -2,11 +2,14 @@
 layout: default
 highlight_nav: shop
 ---
-asdfasdfasdf
+{% pattern navigations/secondary-nav %}
+<div class="island">
+<h1 class="yota text-center">Our Candies</h1>
 <div class="grid gutter-1-4">
   {% for candy in site.products %}
-  <div class="unit [xs-1 s-1 m-1-4 l-1-4] island-1-4">
+  <div class="unit [xs-1 s-1 m-1-4 l-1-4] island">
     {% pattern cards/candy-product data=candy %}
   </div>
   {% endfor %}
+</div>
 </div>
