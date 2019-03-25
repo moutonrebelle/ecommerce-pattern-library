@@ -10,7 +10,7 @@
 #dinosaurs-control:checked ~ .carousel-inner #dinosaurs,
 #unicorn-control:checked ~ .carousel-inner #unicorn,
 #shark-control:checked ~ .carousel-inner #shark,
-#fruits-control:checked ~ .carousel-inner #fruits, {
+#fruits-control:checked ~ .carousel-inner #fruits {
   display: block;
   background-color: #fff;
 }

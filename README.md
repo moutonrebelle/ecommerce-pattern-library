@@ -1,10 +1,15 @@
----
-#title
+##title
 
 title: Candy Shop
-version: 0.0.0
+**version: 1.0.0**
 
-#description & motivation
+##contributors
+- Laura Meguerditchian
+Github Username: @moutonrebelle
+Email: megu0003@algonquinlive.com
+
+
+##description & motivation
 
 description: This website was made for a fictional candy shop e-commerce. The goal was to have a fun and colorful design. This was accomplished by using different colors such as pink, purple and teal and with a logo representing a whale splashing sprinkles.
 
@@ -31,3 +36,6 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
 ---
+
+## License & copyright
+© Laura Meguerditchian, Algonquin College Graphic Design
