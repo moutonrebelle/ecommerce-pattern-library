@@ -6,7 +6,7 @@ title: Candy Shop
 ##contributors
 
 [@moutonrebelle](https://github.com/moutonrebelle)
-[@cieraclaire](https://github.com/cierraclaire)
+[@cieraclaire](https://github.com/cieraclaire)
 
 ##description & motivation
 
