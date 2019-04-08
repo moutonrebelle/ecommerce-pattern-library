@@ -38,3 +38,10 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 ## License & copyright
 © Laura Meguerditchian, Algonquin College Graphic Design
+
+---
+
+## Collaborators
+- [@moutonrebelle](https://github/moutonrebelle)
+- [@cieraclaire](https://github/cieraclaire)
+- [@gabbycinco](https://github/gabbycinco)
