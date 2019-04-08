@@ -7,6 +7,7 @@ title: Candy Shop
 
 [@moutonrebelle](https://github.com/moutonrebelle)
 [@cieraclaire](https://github.com/cieraclaire)
+[@gabbycinco](https://github/gabbycinco)
 
 ##description & motivation
 
