@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<h1 class="text-center">*** Buy 2 for 1 ***</h1>
+{% pattern banner/top-of-page button_text="See collection" button_url="/products/" heading="Promotion" text="Get your candies today!" image="/images/candies/banner-01.jpg" %}
+<div class="grid">
+  <div class="unit [xs-1 s-1 m-1-2 l-1-2] island gutter">
+    {% pattern cards/candy %}
+  </div>
+  <div class="unit [xs-1 s-1 m-1-2 l-1-2] island gutter">
+    {% pattern cards/candy %}
+  </div>
+</div>
+<div class="text-center">
+  {% pattern tables/table text="Dinosaurs" price="$6.00" image="/images/candies/candy-01.jpg"%}
+  {% pattern tables/table text="Unicorn" price="$6.00" image="/images/candies/candy-02.jpg"%}
+</div>
+
+<form class="island" action="action_page.php">
+  <div class="container" style="background-color:white">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Get exclusive content!</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
