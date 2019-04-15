@@ -4,16 +4,24 @@ layout: default
 <h1 class="text-center">*** Buy 2 for 1 ***</h1>
 {% pattern banner/top-of-page button_text="See collection" button_url="/products/" heading="Promotion" text="Get your candies today!" image="/images/candies/banner-01.jpg" %}
 <div class="grid">
-  <div class="unit [xs-1 s-1 m-1-2 l-1-2] island gutter">
-    {% pattern cards/candy %}
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] island gutter">
+    {% assign product=site.products[0] %}
+    {% pattern cards/candy data=product %}
   </div>
-  <div class="unit [xs-1 s-1 m-1-2 l-1-2] island gutter">
-    {% pattern cards/candy %}
+  <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] island gutter">
+    {% assign product=site.products[2] %}
+    {% pattern cards/candy data=product %}
   </div>
 </div>
+
 <div class="text-center">
   {% pattern tables/table text="Dinosaurs" price="$6.00" image="/images/candies/candy-01.jpg"%}
   {% pattern tables/table text="Unicorn" price="$6.00" image="/images/candies/candy-02.jpg"%}
+</div>
+
+<div class="text-right push">
+  <p class="inline-block">SUBTOTAL BEFORE TAXES AND SHIPPING</p>
+  <h3 class="inline gutter">$6.00</h3>
 </div>
 
 <form class="island" action="action_page.php">

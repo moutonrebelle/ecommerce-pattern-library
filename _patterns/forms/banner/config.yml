@@ -1,0 +1,17 @@
+patterns:
+  top-of-page:
+    fields:
+      - name: heading
+        type: string
+        example: "Home-Made Gummies"
+      - name: text
+        type: string
+        example: "Tasty and vegan!"
+      - name: button_text
+        type: string
+        example: "See collection"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false

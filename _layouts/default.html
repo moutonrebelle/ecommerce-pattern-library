@@ -8,10 +8,13 @@
 	  <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
 	</head>
 	<body>
-
+  <ul class="skip-links">
+        <li><a href="#header">Skip to header</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to footer</a></li>
+  </ul>
   {% pattern header/header %}
-  {{content}}
+  <main id="main" role="main">{{content}}</main>
   {% pattern footer/footer %}
-
 </body>
 </html>

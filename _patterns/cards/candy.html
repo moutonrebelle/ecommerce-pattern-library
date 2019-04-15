@@ -1,7 +1,6 @@
 <div class="card">
-  <img class="img-flex" src="/images/candies/candy-01.jpg" alt="">
+  <img class="img-flex" src="{{include.data.image}}" alt="">
   <h2>{{include.data.name}}</h2>
   <p>{{include.data.description}}</p>
   <h3>{{include.data.price}}</h3>
-{% pattern buttons/basic text="Buy now" url=include.data.url%}
 </div>
