@@ -1,0 +1,20 @@
+title: "Sections"
+description: |
+  The sections consist of different parts of the pages. They can be used in different orders to create a full page.
+
+patterns:
+  second-section:
+    description: |
+      The second section consists of a carousel to see the featured candies.
+  third-section:
+    description: |
+      The third sections consists of the features the candies have.
+  fourth-section:
+    description: |
+      The fourth section should be used on the home page.
+  fifth-section:
+    description: |
+      The fifth section should be used on the about page.
+  shopping-bag:
+    description: |
+      The shopping bag section should be used on the shopping cart page.

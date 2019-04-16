@@ -1,0 +1,9 @@
+title: "Tables"
+description: |
+  The tables are meant for the shopping cart.
+
+patterns:
+  secondary-nav:
+    title: "table"
+    description: |
+      This table should be used on the shopping cart or for promotions.

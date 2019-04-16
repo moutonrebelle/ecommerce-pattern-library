@@ -1,0 +1,4 @@
+patterns:
+  payment:
+    description: |
+    This form will be used for the checkout page
